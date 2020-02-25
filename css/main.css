@@ -48,6 +48,7 @@
  *    ## subscribe
  *    ## copyright
  *    ## go to top
+ *  # team area
  *
  * =================================================================== */
 
@@ -3438,3 +3439,104 @@ html.no-csstransitions .home-content__main {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* ------------------------------------------------------------------- 
+ * ## team area
+ * ------------------------------------------------------------------- */
+ /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area.minus_padding {
+  padding-top: 50px;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+  .team_area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+/* line 11, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+/* line 13, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team {
+  margin-bottom: 60px;
+}
+
+/* line 15, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team .team_thumb {
+  overflow: hidden;
+  margin-bottom: 26px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 19, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team .team_thumb img {
+  width: 100%;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 26, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team .team_info h3 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #2C2C2C;
+  margin-bottom: 0;
+}
+
+/* line 32, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team .team_info p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #2C2C2C;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+/* line 40, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team .team_info .social_link li {
+  display: inline-block;
+}
+
+/* line 42, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team .team_info .social_link li a {
+  font-size: 15px;
+  color: #C7C7C7;
+  margin: 0 5px;
+}
+
+/* line 46, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team .team_info .social_link li a:hover {
+  color: #5DB2FF;
+}
+
+/* line 55, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
+.team_area .border_bottom .single_team:hover .team_thumb img {
+  width: 100%;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
