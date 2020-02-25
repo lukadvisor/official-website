@@ -3445,7 +3445,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
  /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_team.scss */
 .team_area {
-  padding-top: 100px;
+  padding-top: 130px;
   padding-bottom: 100px;
 }
 
@@ -3476,6 +3476,8 @@ html.no-csstransitions .home-content__main {
 .team_area .border_bottom .single_team .team_thumb {
   overflow: hidden;
   margin-bottom: 26px;
+  margin-left: 26px;
+  margin-right: 26px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
