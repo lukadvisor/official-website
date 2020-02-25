@@ -1249,6 +1249,31 @@ input::-moz-focus-inner {
   content: "/ ";
 }
 
+.subsubhead {
+  font-family: "metropolis-semibold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.3125;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: #cc147f;
+  margin-top: 6.1rem;
+  margin-bottom: 2.1rem;
+}
+.subsubhead::before {
+  content: "/ ";
+}
+
+spacer {
+  font-family: "metropolis-semibold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.3125;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: #cc147f;
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * display headings
