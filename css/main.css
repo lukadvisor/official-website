@@ -2279,7 +2279,7 @@ html.no-csstransitions .home-content__main {
 }
 .process__col {
   position: relative;
-  min-height: 24.6rem;
+  min-height: 6.6rem; 
 }
 .process__col::before {
   content: attr(data-item);
