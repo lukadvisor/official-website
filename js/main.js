@@ -212,10 +212,11 @@
     var clSlickSlider = function() {
         
         $('.testimonials__slider').slick({
+            autoplay: true,
             arrows: false,
             dots: true,
             infinite: true,
-            slidesToShow: 2,
+            slidesToShow: 5,
             slidesToScroll: 1,
             pauseOnFocus: false,
             autoplaySpeed: 1500,
