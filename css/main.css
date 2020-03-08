@@ -2961,7 +2961,7 @@ html.no-csstransitions .home-content__main {
   padding: 0 2rem;
   position: relative;
   overflow: hidden;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .stats__count {
@@ -3549,9 +3549,9 @@ html.no-csstransitions .home-content__main {
 
 @media (max-width: 575px) {
   /* line 16, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_teams_area.scss */
-  .teams_area .single_blog_item {
+  /* .teams_area .single_blog_item {
     margin-bottom: 80px;
-  }
+  } */
   /* line 22, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_teams_area.scss */
   .teams_area .single_blog_item .single_blog_img img {
     width: 100%;
@@ -3560,9 +3560,9 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 16, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_teams_area.scss */
-  .teams_area .single_blog_item {
+  /* .teams_area .single_blog_item {
     margin-bottom: 80px;
-  }
+  } */
   /* line 30, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_teams_area.scss */
   .teams_area .single_blog_item .single_blog_img img {
     width: 100%;
@@ -3571,9 +3571,9 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 16, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_teams_area.scss */
-  .teams_area .single_blog_item {
+  /* .teams_area .single_blog_item {
     margin-bottom: 80px;
-  }
+  } */
 }
 
 /* line 42, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_teams_area.scss */
@@ -3676,38 +3676,13 @@ html.no-csstransitions .home-content__main {
 .teams_area .single_text {
   position: absolute;
   width: 100%;
-  top: 300px;
   left: 0;
   right: 0;
   margin: 0 auto;
   text-align: center;
-  bottom: -123px;
+  bottom: -230px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-}
-
-@media only screen and (max-width: 1200px) {
-  .teams_area .single_text {
-    top: 250px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .teams_area .single_text {
-    top: 250px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .teams_area .single_text {
-    top: 250px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .teams_area .single_text {
-    top: 250px;
-  }
 }
 
 /* line 115, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_teams_area.scss */
