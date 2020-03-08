@@ -1256,56 +1256,56 @@ spacer {
 
 @media only screen and (max-width: 1400px) {
   .display-1 {
-    font-size: 5.6rem;
+    font-size: 4rem;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .display-1 {
-    font-size: 5.2rem;
+    font-size: 3.6rem;
   }
 }
 
 @media only screen and (max-width: 950px) {
   .display-1 {
-    font-size: 4.6rem;
+    font-size: 3.4rem;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .display-1 {
-    font-size: 4.2rem;
+    font-size: 3rem;
     margin-bottom: 4.2rem;
   }
   .subhead {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
 @media only screen and (max-width: 700px) {
   .display-1 {
-    font-size: 4rem;
+    font-size: 2.3rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .display-1 {
-    font-size: 3.6rem;
+    font-size: 2rem;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .display-1 {
-    font-size: 3.3rem;
+    font-size: 2.1rem;
   }
   .subhead {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .display-1 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 }
 
