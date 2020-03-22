@@ -20,6 +20,7 @@
 
     <!-- CSS
     ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
@@ -620,7 +621,7 @@
             </div> <!-- end section-header -->
 
             <div class="teams_row teams block-1-4 block-m-1-4 block-tab-1-2 block-mob-full" data-aos="fade-up">
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('winson')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/winson.jpg" alt="artist">
@@ -638,7 +639,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col"  onclick="displayBio('shaun')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/shaun.jpg" alt="artist">
@@ -654,7 +655,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('patrick')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/patrick.jpg" alt="artist">
@@ -671,7 +672,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('samson')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/samson.jpg" alt="artist">
@@ -688,7 +689,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('martin')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/martin.jpg" alt="artist">
@@ -705,7 +706,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('matthew')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/matthew.jpg" alt="artist">
@@ -722,7 +723,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col"  onclick="displayBio('dennis')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/dennis.jpg" alt="artist">
@@ -738,7 +739,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col"  onclick="displayBio('fishball')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/fishball.jpg" alt="artist">
@@ -754,7 +755,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('eric')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/eric.jpg" alt="artist">
@@ -767,7 +768,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('peter')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/peter.jpg" alt="artist">
@@ -784,7 +785,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('steve')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/steve.jpg" alt="artist">
@@ -800,7 +801,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('ringo')">
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/ringo.jpg" alt="artist">
@@ -817,7 +818,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-block stats__col">
+                <div class="col-block stats__col" onclick="displayBio('jacky')">>
                     <div class="single_blog_item">
                         <div class="single_blog_img">
                             <img src="images/teams/jacky.jpg" alt="artist">
@@ -1019,11 +1020,41 @@
     </div>
 
 
+    <!-- Modal HTML embedded directly into document -->
+    <div id="bio" class="modal">
+        <div class="row">
+
+            <div class="col-three stats__col">
+                <div class="single_blog_item">
+                    <div class="single_blog_img">
+                        <img id="bio-image" src="images/teams/winson.jpg" alt="artist">
+                    </div>
+                    <div class="single_text">
+                        <div class="single_blog_text text-center">
+                            <h3 id="bio-name">Winson Luk</h3>
+                            <p id="bio-position">Co-Founder & <br /> CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-nine tab-full">
+                <h4>Profile</h4>
+                <p id="bio-description">
+                Winson Luk is a data scientist and AI engineer. He is a computer science graduate from Hong Kong University of Science and Technology. He won over 10 awards from national hackathons, programming and data science competitions before. With the working experience in UBS, Uber, Huawei, Fidelity and Boston Consulting, he is sure he can provide valuable solutions to any client.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="js/bio.js"></script>
 
 </body>
 
