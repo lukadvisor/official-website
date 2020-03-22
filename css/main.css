@@ -3874,3 +3874,7 @@ html.no-csstransitions .home-content__main {
 .slick-arrow.slick-hidden {
   display: none;
 }
+
+.modal {
+  max-width: 1000px;
+}
