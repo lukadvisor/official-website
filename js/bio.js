@@ -50,7 +50,7 @@ const people = {
         "id": "samson",
         "name": "Samson Lam",
         "position": "Co-Founder & Principal Technical Consultant",
-        "description": "Samson is a HKU Computer Science student who is eager to gain a more detailed understanding of Technology. Believing in joining various programmes and competitions, he can have a chance to pursue the advanced technology. He will surely unravel the knowledge diligently and make contributions to the discipline for the betterment of Technology.",
+        "description": "Samson is a software engineer who is eager to gain a more detailed understanding of Technology. Won various hackathon and case competitions, he always pursues the advanced technology. He unravels the knowledge diligently and make contributions to clients.",
         "image": "samson.jpg",
         "links": [
             {
@@ -165,12 +165,14 @@ const people = {
 };
 
 function displayBio(person) {
-    const data = people[person];
+    if (people.hasOwnProperty(person)) {
+        const data = people[person];
 
-    $('#bio-name').text(data.name);
-    $('#bio-position').text(data.position);
-    $('#bio-description').text(data.description);
-    $('#bio-image').attr('src', `images/teams/${data.image}`);
+        $('#bio-name').text(data.name);
+        $('#bio-position').text(data.position);
+        $('#bio-description').text(data.description);
+        $('#bio-image').attr('src', `images/teams/${data.image}`);
 
-    $('#bio').modal();
+        $('#bio').modal();
+    }
 }
