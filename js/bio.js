@@ -165,12 +165,14 @@ const people = {
 };
 
 function displayBio(person) {
-    const data = people[person];
+    if (people.hasOwnProperty(person)) {
+        const data = people[person];
 
-    $('#bio-name').text(data.name);
-    $('#bio-position').text(data.position);
-    $('#bio-description').text(data.description);
-    $('#bio-image').attr('src', `images/teams/${data.image}`);
+        $('#bio-name').text(data.name);
+        $('#bio-position').text(data.position);
+        $('#bio-description').text(data.description);
+        $('#bio-image').attr('src', `images/teams/${data.image}`);
 
-    $('#bio').modal();
+        $('#bio').modal();
+    }
 }

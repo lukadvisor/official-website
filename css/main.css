@@ -3877,4 +3877,9 @@ html.no-csstransitions .home-content__main {
 
 .modal {
   max-width: 1000px;
+  border-radius: 0px;
+}
+
+.teams [onclick]{
+  cursor: pointer;
 }
