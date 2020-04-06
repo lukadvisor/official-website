@@ -35,7 +35,7 @@ const people = {
     "patrick": {
         "id": "patrick",
         "name": "Patrick Lam",
-        "position": "Co-Founder & Principal Strategy Consultant",
+        "position": "Co-Founder & Principal Strategy Director",
         "description": "Patrick Lam is a strategist specialized in digital transformation. He has diversified experience in conglomerates like Swire, financial institutions and FinTech unicorn Alipay. Pursuing his bachelor’s degree in Risk Management and Business Intelligence at HKUST, he is also working with Google to formulate new digital strategies for the insurance sector.",
         "image": "patrick.jpg",
         "links": [
@@ -49,7 +49,7 @@ const people = {
     "samson": {
         "id": "samson",
         "name": "Samson Lam",
-        "position": "Co-Founder & Principal Technical Consultant",
+        "position": "Co-Founder & Principal Technical Director",
         "description": "Samson is a software engineer who is eager to gain a more detailed understanding of Technology. Won various hackathon and case competitions, he always pursues the advanced technology. He unravels the knowledge diligently and make contributions to clients.",
         "image": "samson.jpg",
         "links": [
@@ -68,7 +68,7 @@ const people = {
     "martin": {
         "id": "martin",
         "name": "Martin Ng",
-        "position": "Data Consultant",
+        "position": "Data Analyst",
         "description": "Martin Ng is a Data Analyst. Graduated from HKUST in Statistics and Financial Mathematics, Martin Ng is currently pursuing a Master's degree in Mathematics at CUHK. He worked in HSBC and Big4 accounting firms, and provided assistance in many data related projects.",
         "image": "martin.jpg",
         "links": [
