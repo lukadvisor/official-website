@@ -21,7 +21,7 @@ const people = {
     "shaun": {
         "id": "shaun",
         "name": "Shaun Tsoi",
-        "position": "Co-Founder & Principal Project Manager",
+        "position": "Co-Founder & Project Manager",
         "description": "Shaun Tsoi is an innovative and passionate Studentpreneur in Hong Kong, with over 20 competition achievements, awards and scholarships in innovation. He has solid experience in startups’ business development, such as ongoing startups providing smoking cessation IoT, data-driven health solution and food design, and achieved over million funding. He also have business development experience in HP and Ocean Network Express.\n\nHe is also a community service enthusiast. He cofounded an NGO(ongoing) facilitating youth development, and was the top management of an entrepreneurship organization fostering innovative spirit among students.\n\nOne more fun fact, he designed and owned a virtual influencer(ongoing) on social media with over thousand fans in 1 month, which demonstrated his talent in marketing and design.",
         "image": "shaun.jpg",
         "links": [
@@ -35,7 +35,7 @@ const people = {
     "patrick": {
         "id": "patrick",
         "name": "Patrick Lam",
-        "position": "Co-Founder & Principal Strategy Director",
+        "position": "Co-Founder & Strategy Director",
         "description": "Patrick Lam is a strategist specialized in digital transformation. He has diversified experience in conglomerates like Swire, financial institutions and FinTech unicorn Alipay. Pursuing his bachelor’s degree in Risk Management and Business Intelligence at HKUST, he is also working with Google to formulate new digital strategies for the insurance sector.",
         "image": "patrick.jpg",
         "links": [
@@ -49,7 +49,7 @@ const people = {
     "samson": {
         "id": "samson",
         "name": "Samson Lam",
-        "position": "Co-Founder & Principal Technical Director",
+        "position": "Co-Founder & Technical Director",
         "description": "Samson is a software engineer who is eager to gain a more detailed understanding of Technology. Won various hackathon and case competitions, he always pursues the advanced technology. He unravels the knowledge diligently and make contributions to clients.",
         "image": "samson.jpg",
         "links": [
