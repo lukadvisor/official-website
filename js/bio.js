@@ -147,20 +147,6 @@ const people = {
                 "link": "https://www.linkedin.com/in/stevechak"
             }
         ]
-    },
-    "jacky": {
-        "id": "jacky",
-        "name": "Jacky Lo",
-        "position": "Advisor",
-        "description": "Jacky Lo is a Business advisor. He had a double degree in Computer Engineering and Commerce. He loves to connect tech to businesses to save people time for leisure and outdoor activities. He worked in both the Big4 accounting and German sourcing companies for business development and solution deployment.",
-        "image": "jacky.jpg",
-        "links": [
-            {
-                "type": "linkedin",
-                "icon": "fa-linkedin-in",
-                "link": "https://www.linkedin.com/in/jacky-lo-462211a2"
-            }
-        ]
     }
 };
 
