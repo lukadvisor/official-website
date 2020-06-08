@@ -46,24 +46,13 @@ const people = {
             }
         ]
     },
-    "samson": {
-        "id": "samson",
-        "name": "Samson Lam",
+    "king": {
+        "id": "king",
+        "name": "King Lam",
         "position": "Co-Founder & Technical Director",
-        "description": "Samson is a software engineer who is eager to gain a more detailed understanding of Technology. Won various hackathon and case competitions, he always pursues the advanced technology. He unravels the knowledge diligently and make contributions to clients.",
-        "image": "samson.jpg",
-        "links": [
-            {
-                "type": "github",
-                "icon": "fa-github",
-                "link": "https://github.com/samsonllam"
-            },
-            {
-                "type": "linkedin",
-                "icon": "fa-linkedin-in",
-                "link": "https://www.linkedin.com/in/samson-lam/"
-            }
-        ]
+        "description": "king is a software engineer who is eager to gain a more detailed understanding of Technology and unravel his knowledge diligently and make contributions to clients.",
+        "image": "king.jpg",
+        "links": []
     },
     "martin": {
         "id": "martin",
