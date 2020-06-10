@@ -50,7 +50,7 @@ const people = {
         "id": "king",
         "name": "King Lam",
         "position": "Co-Founder & Technical Director",
-        "description": "king is a software engineer who is eager to gain a more detailed understanding of Technology and unravel his knowledge diligently and make contributions to clients.",
+        "description": "King is a software engineer who is eager to gain a more detailed understanding of technology and unravel his knowledge diligently and make contributions to clients.",
         "image": "king.jpg",
         "links": []
     },
