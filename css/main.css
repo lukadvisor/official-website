@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Transcend v1.0 Main Stylesheet
  *  03-19-2018
@@ -12,7 +12,7 @@
  *    ## responsive video container
  *    ## floated image
  *    ## tables
- *    ## Spacing 
+ *    ## Spacing
  *    ## pace.js styles - minimal
  *  # preloader
  *  # forms
@@ -28,7 +28,7 @@
  *  # header styles
  *    ## header logo
  *    ## main navigation
- *    ## mobile menu toggle 
+ *    ## mobile menu toggle
  *  # home
  *    ## home content
  *    ## home sidelinks
@@ -42,8 +42,8 @@
  *  # works
  *    ## bricks/masonry
  *  # testimonials
- *  # stats 
- *  # contact 
+ *  # stats
+ *  # contact
  *    ## contact social
  *    ## subscribe
  *    ## copyright
@@ -83,7 +83,7 @@ body {
   padding: 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## links
  * ------------------------------------------------------------------- */
 
@@ -104,7 +104,7 @@ a:hover, a:active {
 
 /* ===================================================================
  * # typography & general theme styles
- * 
+ *
  * ------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -335,7 +335,7 @@ hr {
   height: 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Lists
  * ------------------------------------------------------------------- */
 
@@ -392,7 +392,7 @@ dd {
   margin: 0 0 0 2rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## responsive video container
  * ------------------------------------------------------------------- */
 
@@ -411,7 +411,7 @@ dd {
   height: 100%;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## floated image
  * ------------------------------------------------------------------- */
 
@@ -423,7 +423,7 @@ img.pull-left {
   margin: 1.5rem 3rem 0 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tables
  * ------------------------------------------------------------------- */
 
@@ -463,8 +463,8 @@ th:last-child, td:last-child {
   -webkit-overflow-scrolling: touch;
 }
 
-/* ------------------------------------------------------------------- 
- * ## Spacing 
+/* -------------------------------------------------------------------
+ * ## Spacing
  * ------------------------------------------------------------------- */
 
 button, .btn {
@@ -479,7 +479,7 @@ input, textarea, select, pre, blockquote, figure, table, p, ul, ol, dl, form, .v
   margin-bottom: 3rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## pace.js styles - minimal
  * ------------------------------------------------------------------- */
 
@@ -692,7 +692,7 @@ label>input[type="checkbox"], label>input[type="radio"] {
   top: 0.15rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Style Placeholder Text
  * ------------------------------------------------------------------- */
 
@@ -718,7 +718,7 @@ label>input[type="checkbox"], label>input[type="radio"] {
   color: #626262 !important;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Change Autocomplete styles in Chrome
  * ------------------------------------------------------------------- */
 
@@ -815,12 +815,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   padding: 0;
 }
 
-/* =================================================================== 
+/* ===================================================================
  * # additional components
  *
  * ------------------------------------------------------------------- */
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## alert box
  * ------------------------------------------------------------------- */
 
@@ -865,11 +865,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   color: #bba31b;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## additional typo styles
  * ------------------------------------------------------------------- */
 
-/* drop cap 
+/* drop cap
  * ----------------------------------------------- */
 
 .drop-cap:first-letter {
@@ -885,7 +885,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   color: #000000;
 }
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 
 .lining dt, .lining dd {
@@ -911,7 +911,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   margin-left: -0.2em;
 }
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 
 .dictionary-style dt {
@@ -933,7 +933,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   content: counter(definitions, decimal) ". ";
 }
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -979,7 +979,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   content: none;
 }
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -1031,8 +1031,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   color: #626262;
 }
 
-/* ------------------------------------------------------------------- 
- * ## skillbars 
+/* -------------------------------------------------------------------
+ * ## skillbars
  * ------------------------------------------------------------------- */
 
 .skill-bars {
@@ -1189,13 +1189,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   background-color: #f1f1f1;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## display headings
  * ------------------------------------------------------------------- */
 
 .display-1 {
   font-family: "domine-bold", sans-serif;
-  font-size: 6rem;
+  /* font-size: 4.5rem; */
   line-height: 1.3;
   letter-spacing: 0;
   color: #000000;
@@ -1249,32 +1249,32 @@ spacer {
   margin-bottom: 2.1rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * display headings
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1400px) {
   .display-1 {
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .display-1 {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
 }
 
 @media only screen and (max-width: 950px) {
   .display-1 {
-    font-size: 3.4rem;
+    font-size: 2.8rem;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .display-1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-bottom: 4.2rem;
   }
   .subhead {
@@ -1350,12 +1350,12 @@ spacer {
 }
 
 .header-logo img {
-  width: 186px;
-  height: 96px;
+  width: 20vh;
+  height: auto;
 }
 
-/* ------------------------------------------------------------------- 
- * ## main navigation 
+/* -------------------------------------------------------------------
+ * ## main navigation
  * ------------------------------------------------------------------- */
 
 .header-nav {
@@ -1546,8 +1546,8 @@ spacer {
   left: 0;
 }
 
-/* ------------------------------------------------------------------- 
- * ## mobile menu toggle 
+/* -------------------------------------------------------------------
+ * ## mobile menu toggle
  * ------------------------------------------------------------------- */
 
 .header-menu-toggle {
@@ -1621,7 +1621,7 @@ spacer {
   bottom: -9px;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * header
  * ------------------------------------------------------------------- */
@@ -1725,7 +1725,7 @@ spacer {
   background: #000000;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home content
  * ------------------------------------------------------------------- */
 
@@ -1741,7 +1741,7 @@ spacer {
 
 .home-content h1 {
   font-family: "domine-bold", sans-serif;
-  font-size: 8rem;
+  font-size: 6rem;
   line-height: 1.1;
   margin-top: 0;
   color: #ffffff;
@@ -1774,7 +1774,7 @@ spacer {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home sidelinks
  * ------------------------------------------------------------------- */
 
@@ -1842,7 +1842,7 @@ spacer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home scroll
  * ------------------------------------------------------------------- */
 
@@ -1893,7 +1893,7 @@ spacer {
   background-image: url(../images/icons/png/icon-arrow-down.png);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home scroll
  * ------------------------------------------------------------------- */
 
@@ -1972,7 +1972,7 @@ html.no-csstransitions .home-content__main {
   opacity: 1;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home animations
  * ------------------------------------------------------------------- */
 
@@ -2034,17 +2034,17 @@ html.no-csstransitions .home-content__main {
   }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * home
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1600px) {
   .home-content h1 {
-    font-size: 8.8rem;
+    font-size: 6.5rem;
   }
   .home-content h1+p {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
   .home-content__main {
     padding-top: 18rem;
@@ -2062,7 +2062,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1500px) {
   .home-content h1 {
-    font-size: 8.6rem;
+    font-size: 6rem;
   }
   .home-content__main {
     max-width: 1100px;
@@ -2071,7 +2071,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1400px) {
   .home-content h1 {
-    font-size: 7.8rem;
+    font-size: 5rem;
   }
   .home-content h1+p {
     font-size: 3rem;
@@ -2089,7 +2089,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1200px) {
   .home-content h1 {
-    font-size: 6rem;
+    font-size: 4.5rem;
   }
   .home-content h1+p {
     font-size: 2rem;
@@ -2123,13 +2123,13 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 900px) {
   .home-content h1 {
-    font-size: 6.2rem;
+    font-size: 4.65rem;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .home-content h1 {
-    font-size: 6.5rem;
+    font-size: 4.8rem;
   }
   .home-content__main {
     max-width: 580px;
@@ -2147,7 +2147,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 700px) {
   .home-content h1 {
-    font-size: 5.5rem;
+    font-size: 4.1rem;
   }
   .home-content h1+p {
     font-size: 2.2rem;
@@ -2163,7 +2163,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
   .home-content h1 {
-    font-size: 4.8rem;
+    font-size: 3.6rem;
   }
   .home-content h1+p {
     padding-top: 2.6rem;
@@ -2201,7 +2201,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 500px) {
   .home-content h1 {
-    font-size: 5rem;
+    font-size: 3.75rem;
   }
   .home-content h1+p {
     padding-top: 2.8rem;
@@ -2213,7 +2213,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 450px) {
   .home-content h1 {
-    font-size: 4.6rem;
+    font-size: 3.45rem;
   }
   .home-content h1+p {
     padding-top: 2.4rem;
@@ -2225,7 +2225,7 @@ html.no-csstransitions .home-content__main {
     min-height: 630px;
   }
   .home-content h1 {
-    font-size: 4.2rem;
+    font-size: 3.15rem;
   }
   .home-content h1+p {
     padding-top: 2.1rem;
@@ -2261,7 +2261,7 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## about process
  * ------------------------------------------------------------------- */
 
@@ -2323,7 +2323,7 @@ html.no-csstransitions .home-content__main {
   padding-right: 30px;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * about
  * ------------------------------------------------------------------- */
@@ -2427,7 +2427,7 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## services list
  * ------------------------------------------------------------------- */
 
@@ -2449,7 +2449,7 @@ html.no-csstransitions .home-content__main {
   font-size: 4.8rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * services
  * ------------------------------------------------------------------- */
@@ -2509,7 +2509,7 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
 
@@ -2693,7 +2693,7 @@ html.no-csstransitions .home-content__main {
   transform: translate3d(0, 0, 0);
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * works
  * ------------------------------------------------------------------- */
@@ -2882,7 +2882,7 @@ html.no-csstransitions .home-content__main {
   letter-spacing: 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
@@ -2924,7 +2924,7 @@ html.no-csstransitions .home-content__main {
 }
 
 /* ===================================================================
- * # stats 
+ * # stats
  *
  * ------------------------------------------------------------------- */
 
@@ -2997,7 +2997,7 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * stats
  * ------------------------------------------------------------------- */
@@ -3031,7 +3031,7 @@ html.no-csstransitions .home-content__main {
 }
 
 /* ===================================================================
- * # contact 
+ * # contact
  *
  * ------------------------------------------------------------------- */
 
@@ -3061,7 +3061,7 @@ html.no-csstransitions .home-content__main {
 .contact-email {
   display: inline-block;
   font-family: "metropolis-light", sans-serif;
-  font-size: 5.4rem;
+  font-size: 3rem;
   line-height: 1.222;
   color: #ffffff;
   padding-top: 3.6rem;
@@ -3081,19 +3081,19 @@ html.no-csstransitions .home-content__main {
 
 .contact-number {
   font-family: "metropolis-light", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.7;
   display: block;
 }
 
 .contact-address {
   font-family: "metropolis-regular", sans-serif;
-  font-size: 2.8rem;
+  /* font-size: 2.8rem; */
   line-height: 1.607;
   margin-top: 2.4rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## contact social
  * ------------------------------------------------------------------- */
 
@@ -3123,7 +3123,7 @@ html.no-csstransitions .home-content__main {
   margin: 0;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## subscribe
  * ------------------------------------------------------------------- */
 
@@ -3195,7 +3195,7 @@ html.no-csstransitions .home-content__main {
   padding-right: 6px;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## copyright
  * ------------------------------------------------------------------- */
 
@@ -3219,7 +3219,7 @@ html.no-csstransitions .home-content__main {
   display: none;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## go to top
  * ------------------------------------------------------------------- */
 
@@ -3294,7 +3294,7 @@ html.no-csstransitions .home-content__main {
   display: none;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
@@ -3313,10 +3313,10 @@ html.no-csstransitions .home-content__main {
     margin-top: 13.2rem;
   }
   .contact-email {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .contact-number {
-    font-size: 2.6rem;
+    /* font-size: 2.6rem; */
   }
   .contact-address {
     font-size: 2.4rem;
@@ -3331,10 +3331,10 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1000px) {
   .contact-email {
-    font-size: 4.2rem;
+    /* font-size: 4rem; */
   }
   .contact-number {
-    font-size: 2.4rem;
+    /* font-size: 2.4rem; */
   }
   .contact-address {
     font-size: 2.1rem;
@@ -3467,7 +3467,7 @@ html.no-csstransitions .home-content__main {
 
 /*# sourceMappingURL=main.css.map */
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## side image
  * ------------------------------------------------------------------- */
 
@@ -3477,7 +3477,7 @@ html.no-csstransitions .home-content__main {
   }
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## team area
  * ------------------------------------------------------------------- */
 
@@ -3763,7 +3763,7 @@ html.no-csstransitions .home-content__main {
   margin-bottom: 130px;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Customer Logos Slider
  * ------------------------------------------------------------------- */
 .slick-slide {
