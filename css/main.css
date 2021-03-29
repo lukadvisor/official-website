@@ -540,6 +540,11 @@ input, textarea, select, pre, blockquote, figure, table, p, ul, ol, dl, form, .v
   padding: 0;
 }
 
+.single_blog_img img{
+  min-height: 32vh;
+  object-fit: cover;
+}
+
 #loader:before {
   content: "";
   border-top: 6px solid rgba(255, 255, 255, 0.1);
